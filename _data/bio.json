@@ -3,7 +3,7 @@
     "name": "Ryu Young",
     "label": "Student",
     "picture": "https://github.com/kambergjohnson.png",
-    "email": "rypersonal5@hawaii.edu",
+    "email": "rypersonal5@gmail.com",
     "phone": "808-228-6962",
     "website": "https://rypersonal5.github.io",
     "summary": "I am studying for a B.S. in Electrical Engineering in the Department of Engineering at the University of Hawaii. I expect to graduate in Spring, 2025.",
@@ -11,7 +11,7 @@
     "profiles": [
       { "network": "github", "username": "rypersonal5", "url": "http://github.com/changeme" },
       { "network": "linkedin", "username": "rypersonal5", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "rypersonal5", "url": "http://twitter.com/changeme" },
+      { "network": "twitter", "username": "rypersonal5", "url": "http://twitter.com/changeme" }, 
       { "network": "instagram", "username": "rypersonal5", "url": "http://instagram.com/changeme" }
     ]
   },
@@ -45,15 +45,15 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "UH Manoa Library",
+      "position": "Tech-DNS Computer & Network Support Specialist Student Assistant",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "8-16-23",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Troubleshoot software, hardware and networking issues within the library",
+        "Answer phone and email responses to the DNS Help Desk "
       ]
     },
     {
