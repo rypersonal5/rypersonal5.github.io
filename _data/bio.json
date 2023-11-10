@@ -10,9 +10,7 @@
     "location": { "address": "1224 14th Avenue", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "rypersonal5", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "rypersonal5", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "rypersonal5", "url": "http://twitter.com/changeme" }, 
-      { "network": "instagram", "username": "rypersonal5", "url": "http://instagram.com/changeme" }
+      { "network": "linkedin", "username": "rypersonal5", "url": "http://linkedin.com/in/changeme" }
     ]
   },
   "interests": [
