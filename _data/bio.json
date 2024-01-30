@@ -9,8 +9,8 @@
     "summary": "I am studying for a B.S. in Electrical Engineering in the Department of Engineering at the University of Hawaii. I expect to graduate in Spring, 2025.",
     "location": { "address": "1224 14th Avenue", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "rypersonal5", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "rypersonal5", "url": "http://linkedin.com/in/changeme" }
+      { "network": "github", "username": "rypersonal5", "url": "https://github.com/rypersonal5" },
+      { "network": "linkedin", "username": "rypersonal5", "url": "https://www.linkedin.com/in/ryu-young-707b9027b/" }
     ]
   },
   "interests": [
