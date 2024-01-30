@@ -1,15 +1,14 @@
 ---
 layout: project
 type: project
-image: img/aevs2022/AEVSCROPPED.jpeg
-title: "AEVS 2022"
-date: 2022
+image: img/revit/revitlogo.png
+title: "Revit Personal Project"
+date: 2024
 published: true
 labels:
-  - Robotics
-  - Electronics
-  - Power
   - CAD Modeling
-summary: "The 2022-2023 Autonomous Electric Vehicle System I am working on. Part of the electrical team."
+  - Revit
+  - Power & Lighting
+summary: "2024 Revit Electrical Design Project.  Set up wiring, lighting, and power in housing."
 ---
 
