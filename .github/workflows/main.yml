@@ -8,36 +8,18 @@ on:
 jobs:
   github-pages:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Cache gems
-        uses: actions/cache@v4
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-
-      - name: Update RubyGems
-        run: gem update --system
-
-      - name: Install Bundler
-        run: gem install bundler
-
-      - name: Install dependencies
-        run: bundle install
-
-      - name: JSON Syntax Check
-        uses: limitusus/json-syntax-check@v1
+      - uses: limitusus/json-syntax-check@v1
         with:
           pattern: "\\bio.json$"
-
-      - name: Build and deploy Jekyll site
-        uses: helaili/jekyll-action@2.5.0
-        with:
+      - uses: helaili/jekyll-action@2.5.0    # Choose any one of the Jekyll Actions
+        with:                                # Some relative inputs of your action
           token: ${{ secrets.GITHUB_TOKEN }}
-          target_branch: gh-pages
-          jekyll_env: production
+          target_branch: 'gh-pages'
